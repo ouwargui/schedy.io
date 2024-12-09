@@ -8,7 +8,7 @@ import { MixerHorizontalIcon } from "@/assets/icons/Mixer";
 
 export default function Home() {
 	return (
-		<div className="w-screen flex flex-col items-center justify-center gap-20 mt-28 mb-14">
+		<div className="w-screen flex flex-col items-center justify-center gap-20 mt-28 pb-14">
 			<header>
 				<div className="flex flex-col gap-4 items-center">
 					<Image

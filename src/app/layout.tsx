@@ -24,7 +24,10 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html lang="en" className="bg-primary">
+			<head>
+				<link rel="icon" href="/logo.png" sizes="any" />
+			</head>
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-b from-primary to-primary-shade`}
 			>
