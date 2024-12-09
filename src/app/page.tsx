@@ -41,8 +41,8 @@ export default function Home() {
 					</DetailsCard.Icon>
 					<DetailsCard.Title>Saving Your Time</DetailsCard.Title>
 					<DetailsCard.Description>
-						You don&apos;t need open your calendar to check your schedule, we
-						will do it without compromising your space.
+						You don&apos;t need open your calendar to check your schedule,
+						we&apos;ll do it without compromising your space.
 					</DetailsCard.Description>
 				</DetailsCard.Root>
 
