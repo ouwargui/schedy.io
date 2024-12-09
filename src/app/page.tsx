@@ -42,7 +42,7 @@ export default function Home() {
 					<DetailsCard.Title>Saving Your Time</DetailsCard.Title>
 					<DetailsCard.Description>
 						You don&apos;t need open your calendar to check your schedule, we
-						will do it, without compromising your space.
+						will do it without compromising your space.
 					</DetailsCard.Description>
 				</DetailsCard.Root>
 
