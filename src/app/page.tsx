@@ -81,7 +81,7 @@ export default function Home() {
 				<div className="rounded-full flex gap-4 items-center pl-4 bg-text-shade shadow-bright">
 					<span className="text-text-primary font-semibold">Sounds good?</span>
 					<a
-						href="*"
+						href="http://github.com/ouwargui/schedy/releases/latest"
 						className="px-6 py-2 bg-text-primary hover:bg-text-primary-shade text-primary rounded-full uppercase text-sm font-bold transition-colors"
 					>
 						Download now
