@@ -23,7 +23,7 @@ export default function Home() {
 					</h1>
 					<h2 className="text-xl sm:text-xl md:text-2xl font-semibold text-text-shade text-center">
 						You work.{" "}
-						<span className="underline">We keep the eye in your schedule.</span>
+						<span className="underline">We handle your schedule.</span>
 					</h2>
 				</div>
 			</header>
