@@ -87,7 +87,7 @@ export default function Home() {
 						}
 					</div>
 				</div>
-				<p className="text-sm text-text-shade">Required MacOS 14+</p>
+				<p className="text-sm text-text-shade">Schedy requires MacOS 14+</p>
 			</section>
 			<aside>
 				<p className="text-text-primary text-sm">
