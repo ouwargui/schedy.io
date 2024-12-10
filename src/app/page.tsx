@@ -81,7 +81,7 @@ export default function Home() {
 				<div className="rounded-full flex gap-4 items-center pl-4 bg-text-shade shadow-bright">
 					<span className="text-text-primary font-semibold">Sounds good?</span>
 					<div className="px-6 py-2 bg-text-primary hover:bg-text-primary-shade text-primary rounded-full uppercase text-sm font-bold transition-colors">
-						Coming in 23/<span className="capitalize">dec</span>
+						Coming in <span className="capitalize">dec</span> 23
 						{
 							//Download now
 						}
