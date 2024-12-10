@@ -80,12 +80,12 @@ export default function Home() {
 			<section className="flex flex-col items-center justify-center gap-2">
 				<div className="rounded-full flex gap-4 items-center pl-4 bg-text-shade shadow-bright">
 					<span className="text-text-primary font-semibold">Sounds good?</span>
-					<a
-						href="http://github.com/ouwargui/schedy/releases/latest"
-						className="px-6 py-2 bg-text-primary hover:bg-text-primary-shade text-primary rounded-full uppercase text-sm font-bold transition-colors"
-					>
-						Download now
-					</a>
+					<div className="px-6 py-2 bg-text-primary hover:bg-text-primary-shade text-primary rounded-full uppercase text-sm font-bold transition-colors">
+						Coming in 23/<span className="capitalize">dec</span>
+						{
+							//Download now
+						}
+					</div>
 				</div>
 				<p className="text-sm text-text-shade">Required MacOS 14+</p>
 			</section>
