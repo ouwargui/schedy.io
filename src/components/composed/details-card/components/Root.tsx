@@ -1,9 +1,9 @@
-import type { ReactNode } from "react";
+import type { ReactNode } from 'react'
 
 type Props = {
-	children: ReactNode;
-};
+  children: ReactNode
+}
 
 export function Root({ children }: Props) {
-	return <div className="flex-1 flex flex-col gap-1">{children}</div>;
+  return <div className="flex-1 flex flex-col gap-1">{children}</div>
 }
