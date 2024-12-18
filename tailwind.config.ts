@@ -15,6 +15,10 @@ module.exports = {
 			"text-shade": "#7a7c7f",
 		},
 		extend: {
+      backgroundImage: {
+        'schedy': "url('/schedy.png')",
+        'small_schedy': "url('/small_schedy.png')",
+      },
 			boxShadow: {
 				bright: "0px 0px 10px 5px rgb(122,124,127)",
 			},
