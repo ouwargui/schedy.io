@@ -9,7 +9,6 @@ const resendSchedy = new Resend(process.env.EMAIL_API_KEY2)
 const emailSchedy = process.env.EMAIL as string
 
 export async function SendEmail(email: string) {
-  console.log(email)
   try {
     const { error } = await resendUser.emails.send({
       from: 'Schedy <onboarding@resend.dev>',
