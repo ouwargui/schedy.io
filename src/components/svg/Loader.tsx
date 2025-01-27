@@ -12,7 +12,7 @@ export function Loader() {
       <g>
         <g transform="translate(80,50)">
           <g transform="rotate(0)">
-            <circle fill-opacity="1" fill="#323434" r="4" cy="0" cx="0">
+            <circle fillOpacity="1" fill="#323434" r="4" cy="0" cx="0">
               <animateTransform
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
@@ -28,14 +28,14 @@ export function Loader() {
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
                 keyTimes="0;1"
-                attributeName="fill-opacity"
+                attributeName="fillOpacity"
               />
             </circle>
           </g>
         </g>
         <g transform="translate(74.27050983124843,67.6335575687742)">
           <g transform="rotate(36)">
-            <circle fill-opacity="0.9" fill="#323434" r="4" cy="0" cx="0">
+            <circle fillOpacity="0.9" fill="#323434" r="4" cy="0" cx="0">
               <animateTransform
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
@@ -51,14 +51,14 @@ export function Loader() {
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
                 keyTimes="0;1"
-                attributeName="fill-opacity"
+                attributeName="fillOpacity"
               />
             </circle>
           </g>
         </g>
         <g transform="translate(59.270509831248425,78.53169548885461)">
           <g transform="rotate(72)">
-            <circle fill-opacity="0.8" fill="#323434" r="4" cy="0" cx="0">
+            <circle fillOpacity="0.8" fill="#323434" r="4" cy="0" cx="0">
               <animateTransform
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
@@ -74,14 +74,14 @@ export function Loader() {
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
                 keyTimes="0;1"
-                attributeName="fill-opacity"
+                attributeName="fillOpacity"
               />
             </circle>
           </g>
         </g>
         <g transform="translate(40.72949016875158,78.53169548885461)">
           <g transform="rotate(108)">
-            <circle fill-opacity="0.7" fill="#323434" r="4" cy="0" cx="0">
+            <circle fillOpacity="0.7" fill="#323434" r="4" cy="0" cx="0">
               <animateTransform
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
@@ -97,14 +97,14 @@ export function Loader() {
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
                 keyTimes="0;1"
-                attributeName="fill-opacity"
+                attributeName="fillOpacity"
               />
             </circle>
           </g>
         </g>
         <g transform="translate(25.72949016875158,67.6335575687742)">
           <g transform="rotate(144)">
-            <circle fill-opacity="0.6" fill="#323434" r="4" cy="0" cx="0">
+            <circle fillOpacity="0.6" fill="#323434" r="4" cy="0" cx="0">
               <animateTransform
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
@@ -120,14 +120,14 @@ export function Loader() {
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
                 keyTimes="0;1"
-                attributeName="fill-opacity"
+                attributeName="fillOpacity"
               />
             </circle>
           </g>
         </g>
         <g transform="translate(20,50.00000000000001)">
           <g transform="rotate(180)">
-            <circle fill-opacity="0.5" fill="#323434" r="4" cy="0" cx="0">
+            <circle fillOpacity="0.5" fill="#323434" r="4" cy="0" cx="0">
               <animateTransform
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
@@ -143,14 +143,14 @@ export function Loader() {
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
                 keyTimes="0;1"
-                attributeName="fill-opacity"
+                attributeName="fillOpacity"
               />
             </circle>
           </g>
         </g>
         <g transform="translate(25.729490168751575,32.366442431225806)">
           <g transform="rotate(216)">
-            <circle fill-opacity="0.4" fill="#323434" r="4" cy="0" cx="0">
+            <circle fillOpacity="0.4" fill="#323434" r="4" cy="0" cx="0">
               <animateTransform
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
@@ -166,14 +166,14 @@ export function Loader() {
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
                 keyTimes="0;1"
-                attributeName="fill-opacity"
+                attributeName="fillOpacity"
               />
             </circle>
           </g>
         </g>
         <g transform="translate(40.729490168751575,21.468304511145394)">
           <g transform="rotate(252)">
-            <circle fill-opacity="0.3" fill="#323434" r="4" cy="0" cx="0">
+            <circle fillOpacity="0.3" fill="#323434" r="4" cy="0" cx="0">
               <animateTransform
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
@@ -189,14 +189,14 @@ export function Loader() {
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
                 keyTimes="0;1"
-                attributeName="fill-opacity"
+                attributeName="fillOpacity"
               />
             </circle>
           </g>
         </g>
         <g transform="translate(59.27050983124842,21.46830451114539)">
           <g transform="rotate(288)">
-            <circle fill-opacity="0.2" fill="#323434" r="4" cy="0" cx="0">
+            <circle fillOpacity="0.2" fill="#323434" r="4" cy="0" cx="0">
               <animateTransform
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
@@ -212,14 +212,14 @@ export function Loader() {
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
                 keyTimes="0;1"
-                attributeName="fill-opacity"
+                attributeName="fillOpacity"
               />
             </circle>
           </g>
         </g>
         <g transform="translate(74.27050983124842,32.3664424312258)">
           <g transform="rotate(324)">
-            <circle fill-opacity="0.1" fill="#323434" r="4" cy="0" cx="0">
+            <circle fillOpacity="0.1" fill="#323434" r="4" cy="0" cx="0">
               <animateTransform
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
@@ -235,7 +235,7 @@ export function Loader() {
                 repeatCount="indefinite"
                 dur="0.9523809523809523s"
                 keyTimes="0;1"
-                attributeName="fill-opacity"
+                attributeName="fillOpacity"
               />
             </circle>
           </g>
