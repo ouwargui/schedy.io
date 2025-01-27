@@ -1,3 +1,5 @@
+'use server'
+
 import { EmailSchedy } from '@/components/built-in/email/EmailSchedy'
 import { EmailTemplate } from '@/components/built-in/email/EmailTemplate'
 import { Resend } from 'resend'
@@ -6,8 +8,7 @@ const resendUser = new Resend(process.env.EMAIL_API_KEY1)
 const resendSchedy = new Resend(process.env.EMAIL_API_KEY2)
 const emailSchedy = process.env.EMAIL as string
 
-export async function POST(req: Request) {
-  const { email } = await req.json()
+export async function SendEmail(email: string) {
   try {
     const { data, error } = await resendUser.emails.send({
       from: 'Schedy <onboarding@resend.dev>',

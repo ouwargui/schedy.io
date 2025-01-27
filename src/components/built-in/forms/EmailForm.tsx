@@ -5,6 +5,7 @@ import { type FormEvent, useState } from 'react'
 import { SubmitButton } from '../elements/SubmitButton'
 import { StatusButton } from '../elements/StatusButton'
 import { Ok } from '@/components/svg/Ok'
+import { SendEmail } from '@/utils/Emails/EmailHandler'
 
 type Props = {
   postFunction: () => void
@@ -20,13 +21,7 @@ export function EmailForm({ postFunction }: Props) {
     setStatus('loading')
     e.preventDefault()
     try {
-      const res = await fetch('/api/send', {
-        method: 'POST',
-        body: JSON.stringify({ email: email }),
-      })
-      const out = await res.json()
-      console.log(out)
-
+      await SendEmail(email)
       setStatus('ok')
       setTimeout(() => {
         setStatus('default')
