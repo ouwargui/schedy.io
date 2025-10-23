@@ -15,7 +15,7 @@ export default function SignModal({ closeModal }: Props) {
   }
 
   return (
-    <div className="fixed inset-0 z-40 flex items-center justify-center backdrop-blur-sm">
+    <div className="fixed inset-0 z-40 flex items-center justify-center backdrop-blur-xs">
       <div className="z-50 flex flex-col justify-center gap-6 bg-primary-tint rounded-3xl p-4 max-w-[85%] md:max-w-[70%] lg:max-w-[50%] shadow-bright">
         <h2 className="text-text-primary text-lg md:text-xl font-bold uppercase">
           Schedy - Beta Access

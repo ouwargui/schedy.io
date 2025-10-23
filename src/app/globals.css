@@ -1,3 +1,36 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --color-*: initial;
+  --color-primary: #1b1d1d;
+  --color-primary-tint: #323434;
+  --color-primary-shade: #161717;
+  --color-text-primary: #f3f7fe;
+  --color-text-primary-shade: #dbdee5;
+  --color-text-shade: #7a7c7f;
+  --color-text-primary-shade-hover: #afb2b7;
+  --color-text-primary-shade-active: #838589;
+
+  --background-image-schedy: url('/schedy.png');
+  --background-image-small_schedy: url('/small_schedy.png');
+
+  --shadow-bright: 0px 0px 10px 5px rgb(122, 124, 127);
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
