@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import { CTA } from '@/ui/Cta'
-import { Details } from '@/ui/Details'
-import { Header } from '@/ui/Header'
+import { CTA } from "@/ui/Cta";
+import { Details } from "@/ui/Details";
+import { Header } from "@/ui/Header";
+import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 
 export default function Home() {
   return (
@@ -12,11 +13,16 @@ export default function Home() {
       </section>
       <Details />
       <CTA />
-      <footer>
+      <footer className="flex flex-col items-center justify-center gap-4">
+        <div className="flex gap-2">
+          <a href="https://github.com/ouwargui/schedy">
+            <GitHubLogoIcon className="w-6 h-6 text-white" />
+          </a>
+        </div>
         <p className="text-text-primary text-sm">
           &copy; Schedy Team - {new Date().getFullYear()}
         </p>
       </footer>
     </div>
-  )
+  );
 }

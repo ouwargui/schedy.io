@@ -1,7 +1,6 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
-  --color-*: initial;
   --color-primary: #1b1d1d;
   --color-primary-tint: #323434;
   --color-primary-shade: #161717;
@@ -11,8 +10,8 @@
   --color-text-primary-shade-hover: #afb2b7;
   --color-text-primary-shade-active: #838589;
 
-  --background-image-schedy: url('/schedy.png');
-  --background-image-small_schedy: url('/small_schedy.png');
+  --background-image-schedy: url("/schedy.png");
+  --background-image-small_schedy: url("/small_schedy.png");
 
   --shadow-bright: 0px 0px 10px 5px rgb(122, 124, 127);
 }
