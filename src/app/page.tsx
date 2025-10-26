@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { CTA } from "@/ui/Cta";
 import { Details } from "@/ui/Details";
+import { Footer } from "@/ui/Footer";
 import { Header } from "@/ui/Header";
 import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 
@@ -13,24 +14,7 @@ export default function Home() {
       </section>
       <Details />
       <CTA />
-      <footer className="flex flex-col items-center justify-center gap-8 w-full">
-        <a
-          className="text-text-primary text-xs uppercase font-bold group"
-          href="https://github.com/ouwargui"
-        >
-          Made with ❤️ by @
-          <span className="group-hover:underline">ouwargui</span>
-        </a>
-        <div className="h-px w-full bg-primary-tint" />
-        <div className="flex gap-2 text-text-primary text-xs">
-          <a href="/legal" className="hover:underline">
-            Privacy Policy
-          </a>
-          <a href="/legal" className="hover:underline">
-            Terms of Service
-          </a>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
