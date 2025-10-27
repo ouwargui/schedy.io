@@ -6,8 +6,9 @@ export default function PrivacyPolicy() {
       <section className="flex flex-col flex-1 items-start justify-center w-full max-w-3xl text-text-primary gap-8">
         <div className="flex flex-col self-center">
           <h1 className="text-4xl font-bold self-center">Privacy Policy</h1>
-          <p className="text-xs">Last updated: October 26, 2025</p>
+          <p className="text-xs">Last updated: October 27, 2025</p>
         </div>
+
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">
             <h2 className="text-xl font-bold">1. Information We Access</h2>
@@ -31,15 +32,31 @@ export default function PrivacyPolicy() {
               or create calendar events.
             </p>
           </div>
+
           <div className="flex flex-col gap-2">
             <h2 className="text-xl font-bold">2. Data Storage</h2>
             <p>
-              All data fetched from Google is stored locally on your device
-              within the macOS Keychain and is never transmitted to external
-              servers controlled by <span className="font-bold">Schedy</span> or
-              its developer.
+              All information retrieved from Google is stored locally on your
+              device. Specifically:
+            </p>
+            <ul className="list-disc pl-5">
+              <li>
+                <span className="font-bold">OAuth tokens</span> are stored
+                securely in the macOS Keychain to manage your Google sign-in
+                session.
+              </li>
+              <li>
+                <span className="font-bold">User and calendar data</span> (such
+                as your name, email address, and event details) are stored
+                locally using Apple's SwiftData framework.
+              </li>
+            </ul>
+            <p>
+              No data is transmitted to or stored on external servers controlled
+              by <span className="font-bold">Schedy</span> or its developer.
             </p>
           </div>
+
           <div className="flex flex-col gap-2">
             <h2 className="text-xl font-bold">3. Data Sharing</h2>
             <p>
@@ -48,21 +65,57 @@ export default function PrivacyPolicy() {
               your device at all times.
             </p>
           </div>
+
           <div className="flex flex-col gap-2">
             <h2 className="text-xl font-bold">4. Authentication</h2>
             <p>
               <span className="font-bold">Schedy</span> uses Google Sign-In for
-              authentication. Authentication tokens are stored securely in your
-              local Keychain and are used solely for connecting to your Google
-              account through official APIs.
+              authentication. Tokens are stored securely in your Keychain and
+              never exposed outside your device. They are used exclusively for
+              maintaining your Google session and communicating with the Google
+              Calendar API.
             </p>
           </div>
+
           <div className="flex flex-col gap-2">
-            <h2 className="text-xl font-bold">5. Open Source Transparency</h2>
+            <h2 className="text-xl font-bold">
+              5. Data Retention and Deletion
+            </h2>
+            <p>
+              <span className="font-bold">Schedy</span> retains user data only
+              locally and only as long as it is needed for the app to function
+              on your device.
+            </p>
+            <p>
+              All stored information can be deleted by the user at any time in
+              one of the following ways:
+            </p>
+            <ul className="list-disc pl-5">
+              <li>
+                Use the <span className="font-bold">"Clear App Data"</span>{" "}
+                option in Schedy's settings to erase all locally stored data,
+                including SwiftData and Keychain entries related to the app.
+              </li>
+              <li>
+                Sign out of a specific Google account within{" "}
+                <span className="font-bold">Schedy</span> to remove data
+                associated only with that account.
+              </li>
+            </ul>
+            <p>
+              When either of these actions is performed, the corresponding
+              information is permanently removed from your device.{" "}
+              <span className="font-bold">Schedy</span> does not keep any copies
+              or backups on remote servers.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <h2 className="text-xl font-bold">6. Open Source Transparency</h2>
             <p>
               The full source code of <span className="font-bold">Schedy</span>{" "}
-              is available publicly. Users and developers can inspect or compile
-              the app to verify its behavior:{" "}
+              is publicly available. Anyone can review or compile it to verify
+              its behavior:{" "}
               <a
                 href="https://github.com/ouwargui/schedy"
                 className="font-bold underline"
@@ -71,8 +124,9 @@ export default function PrivacyPolicy() {
               </a>
             </p>
           </div>
+
           <div className="flex flex-col gap-2">
-            <h2 className="text-xl font-bold">5. Contact</h2>
+            <h2 className="text-xl font-bold">7. Contact</h2>
             <p>
               If you have any privacy concerns or questions, please
               contact:&nbsp;
@@ -83,6 +137,7 @@ export default function PrivacyPolicy() {
           </div>
         </div>
       </section>
+
       <Footer />
     </div>
   );
